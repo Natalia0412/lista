@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang ="pt-br">
+	<head>
+		<title>
+		Lista de Tarefas 
+		</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css"> 		
+			<script>
+				function minhaFunction(){
+					var checkbox=document.getElementById("concluido");
+					var tarefa=document.getElementById("inserir");
+					
+						if (checkbox.checked == true){
+							style.display="block";
+							
+						}else if(tarefa.clicked == true){
+							prompt("");
+							inserir.style.border-bottom="#FF1493";
+						}else{
+						style.display="none";
+						}
+				}
+				
+					
+				}
+			
+			</script>
+	</head>
+	<body>
+		<div id="header">
+		To Do List (Lista de Tarefas)
+		</div>
+			<div id="urgente">
+				Urgente
+					
+			</div>
+				<div class="conteudoUrgente">
+					
+					<input type="checkbox" id="concluido" onclick="minhaFunction()">
+					<input type="text" id="inserir" onclick="i">
+					 
+					
+				</div>
+			<div id="medio">
+				O quanto antes
+				
+			</div>
+			<div class="conteudoMedio">
+					</div>
+			<div id="ultimo">
+				Se sobrar Tempo
+			</div>
+			<div class="conteudoUltimo">
+					</div>
+	</body>
+</html>
